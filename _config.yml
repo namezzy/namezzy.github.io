@@ -1,11 +1,11 @@
 # 站点设置
-title: 三十年河東 # 名称
-SEOTitle: 三十年河東(SSNHD.COM)-博客、生活、秒事 # 网页标签上显示的小标题
+title: Levi # 名称
+SEOTitle: -博客、生活、学习、科技、有趣 # 网页标签上显示的小标题
 header-img: img/home-bg.jpg
-email: liuour@gmail.com
-description: "科技 数码 美术 设计 | 这里是河東的个人博客, 与你一起发现更大的世界。"
-keyword: "河東, 河東, 三十年河东, 河東博客, ssnhd, @ssnhd, ssnhd.com, 河東的博客, 三十年河東, HD Blog, 博客, 个人网站" # 关键词
-url: "http://ssnhd.github.io" # 博客链接地址
+email: zengyin.ssr@gmail.com
+description: " | "
+keyword: "Levi, withLevi, , 河東博客, namezzy, @namezzy, HD Blog, 博客, 个人网站" # 关键词
+url: "http://namezzy.github.io" # 博客链接地址
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # 发布具有未来日期的帖子或收藏文档
@@ -15,9 +15,9 @@ future: true
 RSS: false
 #weibo_username:
 #zhihu_username:
-github_username: ssnhd
-twitter_username: ssnhdcom
-facebook_username: ssnhd
+github_username: namezzy
+#twitter_username: ssnhdcom
+#facebook_username: ssnhd
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -70,12 +70,12 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics 谷歌统计
-ga_track_id: "UA-216485699-1" # 你用 Google 账号去注册一个就会给你一个这样的 id
+ga_track_id: "G-C18VCK5YNE" # 你用 Google 账号去注册一个就会给你一个这样的 id
 ga_domain: auto # 默认的是 auto, 你如果没有自己的域名，需要改成auto
 
 # 侧边栏设置
 sidebar: true
-sidebar-about-description: "河東，设计师、GIA 钻石鉴定师"
+sidebar-about-description: "Levi，后端工程师、微软认证DevOps工程师、数据分析师、数码科技爱好者"
 sidebar-avatar: /img/avatar-me.jpg # 头像
 
 # Featured Tags 主页右侧特色标签
@@ -90,9 +90,9 @@ service-worker: true
 page-mathjax: false
 
 # Friends 友链
-friends:
-  [
-    { title: "出售 Google Voice", href: "https://t.me/gv188/" },
-    { title: "V2EX Telegram 社群", href: "https://t.me/V2EXPro/" },
-    { title: "Rime Telegram 社群", href: "https://t.me/rimeim/" },
-  ]
+#friends:
+  #[
+   # { title: "出售 Google Voice", href: "https://t.me/gv188/" },
+   # { title: "V2EX Telegram 社群", href: "https://t.me/V2EXPro/" },
+   # { title: "Rime Telegram 社群", href: "https://t.me/rimeim/" },
+  #]
