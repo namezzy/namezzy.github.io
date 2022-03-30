@@ -1,4 +1,4 @@
-```
+---
 layout: post
 title: 把写的脚本变为linux/unix中的系统命令
 subtitle: bash命令
@@ -11,13 +11,11 @@ tags:
   - Linux
   - Bash
   - unix
-```
+---
 
 
 
 
-
-# 
 
 1. 先给脚本权限
 
