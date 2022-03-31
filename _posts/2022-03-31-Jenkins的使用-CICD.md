@@ -4,7 +4,7 @@ title: Jenkins的使用-CI/CD
 subtitle: CI/CD
 date: 2022-03-31
 author: Levi
-header-img: img/CICD/CICD.jpeg
+header-img: img/CICD/CICD.png
 catalog: true
 top: true
 tags:
