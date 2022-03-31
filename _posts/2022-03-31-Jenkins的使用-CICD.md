@@ -16,15 +16,9 @@ tags:
 
 
 
+## Jenkins的使用-CI/CD
 
-
-
-
-
-
-# Jenkins的使用-CI/CD
-
-## 一、去Jenkins官网下载war包
+### 一、去Jenkins官网下载war包
 
 [下载](https://www.jenkins.io/download/)
 
@@ -34,7 +28,7 @@ tags:
 
 
 
-## 二、打开终端运行命令
+### 二、打开终端运行命令
 
 ```bash
 java -jar jenkins.war
@@ -98,7 +92,7 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 
 
 
-## 三、打开浏览器输入http://localhost:8080/
+### 三、打开浏览器输入http://localhost:8080/
 
 1.  把终端生成的密码-294767bf59404c0bae62ac808f136d2f  输入进去
 
@@ -140,7 +134,7 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 
  
 
-## 四、创建项目
+### 四、创建项目
 
 1. 选择 Freestyle project
 
@@ -175,7 +169,7 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 
 
 
-## 五、项目开始自动执行
+### 五、项目开始自动执行
 
 1. 自动部署
 

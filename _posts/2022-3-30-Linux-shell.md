@@ -17,19 +17,19 @@ tags:
 
 
 
-## 1、先给脚本权限
+### 1、脚本权限
 
 ```shell
 chmod 777 脚本文件.bash
 ```
 
-## 2、然后给脚本创建符号链接
+### 2、脚本创建符号链接
 
 ```shell
 ln -s ln -s wakeUpNas.bash  wake
 ```
 
-## 3、复制符号链接wake到/usr/bin/中
+### 3、复制符号链接wake到/usr/bin/中
 
 ```shell
 cp wake /usr/bin/
