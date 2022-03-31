@@ -4,7 +4,7 @@ title: Jenkins的使用-CI/CD
 subtitle: CI/CD
 date: 2022-03-31
 author: Levi
-header-img: img/CICD/CICD.png
+header-img: img/CICD/CICD.jpeg
 catalog: true
 top: true
 tags:
@@ -103,6 +103,8 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 1.  把终端生成的密码-294767bf59404c0bae62ac808f136d2f  输入进去
 
    ![image-20220331204904508](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331204904508-20220331205034176.png)
+
+   
    
 
 2. 自定义Jenkins
@@ -111,9 +113,13 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 
    ![image-20220331205151431](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331205151431.png)
 
+   
+
 3. 开始自动下载所需的插件(需要等一段时间)
 
    ![image-20220331205336684](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331205336684.png)
+
+   
 
    
 
@@ -123,9 +129,12 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 
    
 
+   
+
 5. 进入到Jenkins主页面
 
    ![image-20220331205950099](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331205950099.png)
+   
 
 
 
@@ -136,18 +145,22 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 1. 选择 Freestyle project
 
    ![image-20220331210340486](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331210340486.png)
+   
 
 2. 先使用github创建一个仓库
 
    ![](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331210547037.png)
+   
 
 3. 然后把仓库地址填写到 Repository URL中
 
    ![image-20220331210846540](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331210846540-20220331211152512.png)
+   
 
 4. 构建触发器-选择 轮询SCM
 
    ![image-20220331211326706](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331211326706.png)
+   
 
 5. 构建-选择执行shell
 
@@ -155,6 +168,8 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
    echo "building......";
    cat ./README.md
    ```
+
+   
 
 6. 点击保存
 
@@ -165,6 +180,8 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 1. 自动部署
 
    ![image-20220331211558241](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331211558241.png)
+
+   
 
 2. 运行成功-查看输出的日志
 
