@@ -60,7 +60,7 @@ kramdown:
       start_line: 1
 
 # Disqus 评论系统
-disqus_username: namezzy
+disqus_username: ssnhd
 
 # Netease settings
 netease_comment: false
