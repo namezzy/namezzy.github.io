@@ -75,7 +75,7 @@ ga_domain: auto # 默认的是 auto, 你如果没有自己的域名，需要改�
 
 # 侧边栏设置
 sidebar: true
-sidebar-about-description: "Levi：Back-end Engineer、Azure DevOps Engineer Expert、Senior Geek"
+sidebar-about-description: "Levi：Back-end Engineer、Senior Geek"
 sidebar-avatar: /img/avatar-me.jpg # 头像
 
 # Featured Tags 主页右侧特色标签
