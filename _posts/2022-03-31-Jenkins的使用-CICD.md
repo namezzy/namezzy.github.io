@@ -6,7 +6,7 @@ date: 2022-03-31
 author: Levi
 header-img: img/CICD/CICD.png
 catalog: true
-top: true
+top: false
 tags:
   - CI/CD
   - 持续集成 持续部署
@@ -100,7 +100,6 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 
    
    
-
 2. 自定义Jenkins
 
    选择-安装推荐的插件
@@ -140,22 +139,18 @@ This may also be found at: /Users/levi.zhao/.jenkins/secrets/initialAdminPasswor
 
    ![image-20220331210340486](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331210340486.png)
    
-
 2. 先使用github创建一个仓库
 
    ![](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331210547037.png)
    
-
 3. 然后把仓库地址填写到 Repository URL中
 
    ![image-20220331210846540](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331210846540-20220331211152512.png)
    
-
 4. 构建触发器-选择 轮询SCM
 
    ![image-20220331211326706](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/image-20220331211326706.png)
    
-
 5. 构建-选择执行shell
 
    ```shell

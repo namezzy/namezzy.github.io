@@ -6,7 +6,7 @@ date: 2022-03-30
 author: Levi
 header-img: img/linux/post-bg-computer.png
 catalog: true
-top: true
+top: false
 tags:
   - Linux
   - Bash
