@@ -1,7 +1,7 @@
- Hello, I'm Levi a programmer here to share some things 
+ Hi，我是Levi、后端程序员、极客、DevOps技术人员，喜欢尝试新技术和折腾，所以有了这篇About。
 
 
 
+- 世界和平
+- 人们幸福
 
-
-> 在你能力没有办法解决这件事情的时候，就是默默的记住这件事，有朝一日希望能够改变它。

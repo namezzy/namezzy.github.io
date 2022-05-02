@@ -4,7 +4,7 @@ SEOTitle:  Levi(withLevi) 博客、生活、学习、科技、有趣 # 网页标
 header-img: img/home-bg.jpg
 email: zengyin.ssr@gmail.com
 description: "分享 生活 科技 学习| 精彩不亮丽 起落是无常 "
-keyword: "Levi, withLevi, namezzy, @namezzy, HD Blog, 博客, 个人网站" # 关键词
+keyword: "Levi, withLevi, namezzy, @namezzy, 博客, 个人网站" # 关键词
 url: "http://namezzy.github.io" # 博客链接地址
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
