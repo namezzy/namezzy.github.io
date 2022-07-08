@@ -4,7 +4,7 @@ title: Dubbo+Zookeeper+Dubbo-admin以及整合SpingBoot
 subtitle: 微服务
 date: 2022-07-08
 author: Levi
-header-img: img/dubbo/ms.jpeg
+header-img: img/dubbo/ms.jpg
 catalog: true
 top: false
 tags:
@@ -18,7 +18,7 @@ tags:
 
 
 
-### 一、Dubbo
+### Dubbo
 
 Dubbo是 阿里巴巴公司开源的一个高性能优秀的服务框架，使得应用可通过高性能的 RPC 实现服务的输出和输入功能，可以和 Spring框架无缝集成。
 
@@ -260,7 +260,6 @@ dubbo-admin项目下载链接：[appache/dubbo](https://github.com/apache/dubbo-
    
    admin.root.user.name=root
    admin.root.user.password=root
-   ser
    
    #session timeout, default is one hour
    admin.check.sessionTimeoutMilli=3600000
@@ -304,7 +303,7 @@ dubbo-admin项目下载链接：[appache/dubbo](https://github.com/apache/dubbo-
    # id generate type
    mybatis-plus.global-config.db-config.id-type=none
    ```
-
+   
 4. 打包编译运行项目(也可以直接运行别人打包好的jar包)
 
    ```bash
