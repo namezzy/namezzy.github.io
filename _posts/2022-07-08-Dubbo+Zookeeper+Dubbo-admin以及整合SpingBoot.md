@@ -4,7 +4,7 @@ title: Dubbo+Zookeeper+Dubbo-admin以及整合SpingBoot
 subtitle: 微服务
 date: 2022-07-08
 author: Levi
-header-img: img/dubbo/ms.jpg
+header-img: img/dubbo/ms.jpeg
 catalog: true
 top: false
 tags:
