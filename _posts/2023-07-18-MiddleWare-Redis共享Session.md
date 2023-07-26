@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redis共享Session
+title: MiddleWare-Redis共享Session
 subtitle: JPA
 date: 2023-07-18
 author: Levi
@@ -18,11 +18,7 @@ tags:
 
 
 
-# Redis共享Session
-
-
-
-
+# MiddleWare-Redis共享Session
 
 
 
