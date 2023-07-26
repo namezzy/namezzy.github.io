@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 使用Redis共享Session
+title: Redis共享Session
 subtitle: JPA
 date: 2023-07-18
 author: Levi
@@ -18,7 +18,7 @@ tags:
 
 
 
-# 使用Redis共享Session
+# Redis共享Session
 
 
 
@@ -32,27 +32,27 @@ tags:
 
 目前主流的分布式 Session 管理有两种方案。
 
-**Session 复制**
+## **Session 复制**
 
 ​		部分 Web 服务器能够支持 Session 复制功能，如 Tomcat。用户可以通过修改 Web 服务器的配置文件，让Web 服务器进行 Session 复制，保持每一个服务器节点的 Session 数据都能达到一致。
 这种方案的实现依赖于 Web 服务器，需要 Web 服务器有 Session 复制功能。当 Web 应用中 Session 数量较多的时候，每个服务器节点都需要有一部分内存用来存放 Session，将会占用大量内存资源。同时大量的Session 对象通过网络传输进行复制，不但占用了了网络资源，还会因为复制同步出现延迟，导致程序运行错误。
 
 **在微服务架构中，往往需要 N 个服务端来共同支持服务，不建议采用这种⽅方案。**
 
-**Session 集中存储**
+## **Session 集中存储**
 
 ​		在单独的服务器或服务器集群上使用缓存技术，如 Redis 存储 Session 数据，集中管理所有的 Session，所有的 Web 服务器都从这个存储介质中存取对应的 Session，实现 Session 共享。将 Session 信息从应用中
 剥离出来后，其实就达到了了服务的无状态化，这样就方便在业务极速发展时水平扩充。
 
 在微服务架构下，推荐采用此方案，接下来详细介绍。
 
-**Session 共享**
+## **Session 共享**
 
-**什么是 Session**
+### **什么是 Session**
 
 ​		由于 HTTP 协议是无状态的协议，因而服务端需要记录用户的状态时，就需要用某种机制来识具体的用户。Session 是另⼀一种记录客户状态的机制，不同的是 Cookie 保存在客户端浏览器中，而 Session 保存在服务器上。客户端浏览器访问服务器的时候，服务器把客户端信息以某种形式记录在服务器上，这就是 Session。客户端浏览器再次访问时只需要从该 Session 中查找该客户的状态就可以了了。
 
-**为什么需要 Session 共享**
+### **为什么需要 Session 共享**
 
 在互联网⾏行行业中用户量访问巨大，往往需要多个节点共同对外提供某一种服务，如下图：
 
@@ -68,7 +68,7 @@ tags:
 
 
 
-**Spring Session**
+## **Spring Session**
 
 
 
@@ -96,7 +96,7 @@ Spring 为 Spring Session 和 Redis 的集成提供了了组件：spring-session
 
 
 
-**快速集成**
+## **快速集成**
 
 **引入依赖包**
 
