@@ -101,8 +101,6 @@ Spring Boot 提供了了 ActiveMQ 组件 spring-boot-starter-activemq，⽤用�
 
    > 在使⽤用 ActiveMQ 时有两种使用方式，一种是使用独立安装的 ActiveMQ，在生产环境推荐使用这种；另一种是使用基于内存 ActiveMQ ，在调试阶段建议使用这种方式。	
 
-​	
-
 ​	队列发送的消息, 只能被一个消费者接收。
 
 3. **创建队列**
@@ -156,8 +154,6 @@ Spring Boot 提供了了 ActiveMQ 组件 spring-boot-starter-activemq，⽤用�
 
    > JmsMessagingTemplate 是 Spring 提供发送消息的⼯工具类，使⽤用 JmsMessagingTemplate 和创建好的
    > queue 对消息进⾏行行发送。
-
-
 
 5. **消息消费者**
 
