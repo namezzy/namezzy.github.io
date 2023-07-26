@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 消息队列
+title: MiddleWare-RabbitMQ
 subtitle: RabbitMQ
 date: 2022-09-23
 author: Levi
@@ -16,7 +16,7 @@ tags:
 
 ![image-20220415163559986](https://cdn.jsdelivr.net/gh/Levi0219/note-photo/202209221601898.jpeg)
 
-##  消息队列
+##  RabbitMQ
 
 我们之前如果需要进行远程调用，那么一般可以通过发送HTTP请求来完成，而现在，我们可以使用第二种方式，就是消息队列，它能够将发送方发送的信息放入队列中，当新的消息入队时，会通知接收方进行处理，一般消息发送方称为生产者，接收方称为消费者。
 
