@@ -6,7 +6,7 @@ date: 2022-09-23
 author: Levi
 header-img: img/rabbitmq/rabbi1tmq.jpg
 catalog: true
-top: true
+top: false
 tags:
   - RabbitMQ
   - Channel
