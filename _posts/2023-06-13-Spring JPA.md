@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SpringDataJPA
+title: Spring Data JPA
 subtitle: JPA
 date: 2023-06-13
 author: Levi
