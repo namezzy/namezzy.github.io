@@ -4,7 +4,7 @@ SEOTitle:  Levi(withLevi) 博客、生活、学习、科技、有趣 # 网页标
 header-img: img/home-bg.jpg
 email: zengyin.ssr@gmail.com
 description: "分享 生活 科技 学习| 精彩不亮丽 起落是无常 "
-keyword: "Levid的博客 | Levi Blog" # 关键词
+keyword: "Levi的博客 | Levi Blog" # 关键词
 url: "http://namezzy.github.io" # 博客链接地址
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -75,7 +75,7 @@ ga_domain: auto # 默认的是 auto, 你如果没有自己的域名，需要改�
 
 # 侧边栏设置
 sidebar: true
-sidebar-about-description: "Levi：Back-end Engineer、Senior Geek"
+sidebar-about-description: "Levi：Backend Engineer|Microsoft Certified: DevOps Engineer Expert|Microsoft Certified: Azure Solutions Architect Expert|Senior Geek"
 sidebar-avatar: /img/avatar-me.jpg # 头像
 
 # Featured Tags 主页右侧特色标签
