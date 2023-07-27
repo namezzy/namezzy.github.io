@@ -1,6 +1,6 @@
 ---
  layout: post
-title: Dubbo+Zookeeper+Dubbo-admin以及整合SpingBoot
+title: Spring Boot-Middleware-Dubbo+Zookeeper+Dubbo-admin
 subtitle: 微服务
 date: 2022-07-08
 author: Levi
@@ -13,6 +13,7 @@ tags:
   - Dubbo-admin
   - Springboot
   - Micrervice
+  - Middleware
   
 ---
 
