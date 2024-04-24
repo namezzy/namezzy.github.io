@@ -1,6 +1,1 @@
- Hi, I'm Levi, back-end programmer, geek, DevOps technician, and I like to try new technologies and toss them around, hence this About.
-
-
-
-- Hope for world peace
-- People Happiness
+Levi, a captivating backend engineer, is on a captivating journey, exploring the realms of AI and cutting-edge front-end frameworks like React. With a penchant for technological innovation and a deep appreciation for the art of coding, Levi's curious spirit drives him to continuously expand his skillset. Whether tinkering with DevOps or bringing his imaginative ideas to life, Levi's passion for technology is matched only by his hope for a harmonious world where all may find joy and fulfillment
