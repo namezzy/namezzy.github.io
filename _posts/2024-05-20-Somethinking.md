@@ -4,7 +4,7 @@ title: Some Insights.
 subtitle: Thinking
 date: 2024-05-20
 author: Levi
-header-img: img/openai/openai01.png
+header-img: img/post-bg-film.jpg
 catalog: true
 top: true
 tags:
