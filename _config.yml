@@ -1,10 +1,10 @@
 # 站点设置
 title: Levi Blog # 名称
-SEOTitle: Levi Blog 无限热爱 # 网页标签上显示的小标题
+SEOTitle: Levi Blog｜Infinite love # 网页标签上显示的小标题
 header-img: img/home-bg.jpg
 email: zengyin.ssr@gmail.com
-description: "精彩不亮丽 起落是无常 "
-keyword: "Levi的博客 | Levi Blog" # 关键词
+description: "Perpetual Advancement. "
+keyword: "Levi Website | Levi Blog" # 关键词
 url: "http://namezzy.github.io" # 博客链接地址
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
